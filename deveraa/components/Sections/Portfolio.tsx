@@ -29,7 +29,7 @@ export default function Portfolio() {
       description: "Patient monitoring mobile application with real-time doctor consultation features.",
       results: "Over 500k+ downloads",
       color: "bg-emerald-500/20",
-      imageUrl: "/project2.jpg", // Apni image 2 yahan link karo
+      imageUrl:"/project2.jpg", // Apni image 2 yahan link karo
     },
     {
       id: 3,
