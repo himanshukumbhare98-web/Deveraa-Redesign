@@ -18,7 +18,7 @@ export default function Portfolio() {
       description: "A comprehensive financial dashboard for real-time market tracking and portfolio management.",
       results: "Increased user retention by 40%",
       color: "bg-blue-500/20",
-      imageUrl: "/project1.jpg", // Apni image 1 yahan link karo
+      imageUrl: "/Project1.jpg", // Apni image 1 yahan link karo
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ export default function Portfolio() {
       description: "Patient monitoring mobile application with real-time doctor consultation features.",
       results: "Over 500k+ downloads",
       color: "bg-emerald-500/20",
-      imageUrl:"/project2.jpg", // Apni image 2 yahan link karo
+      imageUrl:"/Project2.jpg", // Apni image 2 yahan link karo
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ export default function Portfolio() {
       description: "Automated human resource management system for large scale organizations.",
       results: "Reduced HR admin time by 60%",
       color: "bg-purple-500/20",
-      imageUrl: "/project3.jpg", // Apni image 3 yahan link karo
+      imageUrl: "/Project3.jpg", // Apni image 3 yahan link karo
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ export default function Portfolio() {
       description: "Predictive route optimization engine for nationwide supply chain delivery networks.",
       results: "Cut fuel costs by 22%",
       color: "bg-orange-500/20",
-      imageUrl: "/project4.jpg", // Apni image 4 yahan link karo
+      imageUrl: "/Project4.jpg", // Apni image 4 yahan link karo
     },
   ];
 
