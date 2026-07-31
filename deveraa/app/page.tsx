@@ -29,7 +29,7 @@ export default function Home() {
         {/* Hero Content */}
         <div className="z-10 flex max-w-5xl flex-col items-center text-center">
           
-          {/* Animated Badge (Size bada kiya gaya hai: text-base & px-5 py-2) */}
+          {/* Animated Badge */}
           <div className="mb-6 inline-flex items-center rounded-full border bg-muted/40 px-5 py-2 text-base font-semibold text-foreground backdrop-blur-md shadow-sm transition-transform duration-300 hover:scale-105">
             <Sparkles className="w-5 h-5 text-indigo-500 mr-2.5 animate-spin" style={{ animationDuration: '4s' }} />
             ✨ Welcome to Deveraa
@@ -51,7 +51,8 @@ export default function Home() {
           {/* Call to Action Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto justify-center items-center">
             
-            <Link href="/contact" className="w-full sm:w-auto">
+            {/* 🔴 UPDATE: /contact ko #contact kiya gaya hai */}
+            <Link href="#contact" className="w-full sm:w-auto">
               <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-md font-bold shadow-lg shadow-primary/20 hover:scale-105 active:scale-95 transition-all duration-300 rounded-xl cursor-pointer">
                 Schedule Consultation <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
@@ -79,7 +80,12 @@ export default function Home() {
       <CaseStudies />
       <Testimonials />
       <FAQ />
-      <CTA />
+      
+      {/* 🔴 UPDATE: CTA ke upar id="contact" lagaya gaya hai taaki navbar wahan scroll kare */}
+      <section id="contact" className="scroll-mt-24">
+        <CTA />
+      </section>
+      
       <Footer />
 
     </main>
